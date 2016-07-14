@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item4"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/item5"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:title="分享"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/item1"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:title="苹果"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/item2"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="2"
+        android:title="香蕉"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/item3"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="3"
+        android:title="橘子"
+        app:showAsAction="never"></item>
+</menu>
