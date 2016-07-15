@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle("asjdikjfofkl");
         toolbar.setTitleTextColor(Color.parseColor("#ff0000"));
         toolbar.setLogo(R.mipmap.ic_launcher);
-        toolbar.setSubtitle("aaa");
+        toolbar.setSubtitle("极客学院");
 
 //        setSupportActionBar(toolbar);
         toolbar.inflateMenu(R.menu.menu_main);
